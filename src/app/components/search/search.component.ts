@@ -11,7 +11,7 @@ export class SearchComponent implements OnInit {
 
   termino:string ="";
 
-  constructor(private _spotifyService:SpotifyService) { }
+  constructor(public _spotifyService:SpotifyService) { }
 
   ngOnInit() {
 
